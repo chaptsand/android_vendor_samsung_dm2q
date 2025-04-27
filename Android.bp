@@ -5,9 +5,8 @@
 soong_namespace {
     imports: [
         "device/samsung/sm8550-common",
-        "hardware/qcom-caf/sm8550",
-        "vendor/qcom/opensource/commonsys-intf/display",
         "vendor/samsung/sm8550-common",
+        "vendor/qcom/common/vendor/display/5.15",
     ],
 }
 
